@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&family=Titan+One&display=swap');
+
+:root{
+    --color-primario: #007D51;
+    --color-secundario: #FF0004;
+    --color-extra: lightblue;
+    --fuente-principal: 'Teko', sans-serif;
+    --encabezados: 'Titan One', cursive;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: var(--fuente-principal);
+    line-height: 1.4;
+    color: black;
+}
+
+h1, h2, h3{
+    font-family: var(--encabezados);
+}
+
+h2{
+  font-size: 4rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: black;
+}
+
+p{
+    margin: 5px 0;
+    line-height: 1.7;
+}
+
+img{
+    max-width: 100%;
+}
+
+section a{
+    color: white;
+}
+
+/*Navbar*/
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    line-height: 20px;
+    /*box-shadow: -10px 10px 20px 0px rgba(0,125,0,0.75);*/
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*Alinea los elementos dentro de un contenedor de la manera que se le indique*/
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    margin: 0 15px;
+    font-weight: bold;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: var(--color-secundario);
+}
+.navbar-logo img{
+    width: 50px;
+    height: 50px;
+}
+.navbar-nav-left{
+    text-transform: uppercase; /*Transforma el texto, todas mayusculas, todas minusculas ó mayusculas al inicio de cada palabra*/
+    flex: 1;
+    margin-left: 20px;
+    
+}
+.navbar-nav-rigth li:nth-child(2){  /*nth-child selecciona un hijo dentro del contenedor padre en la posicion dada entre parentesis, que va a ser al que  se afectará, en este caso se afectará al segundo hijo (li) dentreo del padre (navbar-nav-rigth)*/
+    margin: 0 5px;
+}
+
+button{
+  padding: 7px 16px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-bloc;
+}
+.btn-dark{
+  background: black;
+  color: white;
+}
+
+/*Modificación del box(section)*/
+.box{
+  margin-bottom: 300px; /*margin bottom determina el espacio que habrá debajo de cada contenedor box*/
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.box-b a{
+  text-decoration: none;
+  font-size: 125%;
+  width: 500px;
+  padding: 10px 50px;
+  border: 1px solid white;
+  border-radius: 15px;
+  position: relative;
+  top: 25px;
+}
+.box-c a{
+  text-decoration: none;
+  font-size: 125%;
+  width: 500px;
+  padding: 10px 50px;
+  border: 1px solid white;
+  border-radius: 15px;
+  position: relative;
+  top: 25px;
+}
+
+.box-a{
+  background: var(--color-primario);
+  padding: 20px;
+  margin-bottom: 2%
+}
+
+.box-inner{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Ejemplo para el selector nth-child
+main section:nth-child(1){
+    margin-top: 100px;
+}
+*/
+
+.box-b{
+  background: var(--color-secundario);
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%
+}
+.box-b img{
+  width: 55%;
+}
+
+.box-c{
+  background: var(--color-secundario);
+  display: flex;
+  align-items: center;
+}
+.box-c img{
+  width: 40%;
+  position: relative;
+  right: 2%;
+}
+
+/*footer*/
+.divider{
+  margin: 50px auto;
+  max-width: 1440px;
+  height: 1px;
+  background: rgba(1,1,1,0.3);
+}
+
+.footer{
+    max-width: 1440px;
+    height: auto;
+    background-color: white;
+    line-height: 20px;
+    display: flex;
+    align-items: center; /*Alinea los elementos dentro de un contenedor de la manera que se le indique*/
+    margin: 0 auto;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+.social a{
+  text-decoration: none;
+  margin-right: 20px;
+}

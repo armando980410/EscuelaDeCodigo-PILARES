@@ -1,0 +1,42 @@
+*{
+    font-family:'Times New Roman', Times, serif
+}
+.logo{
+    width: 80px;
+}
+body{
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+header li{
+    display: inline-block;
+    padding: 20px;
+}
+header{
+    background-color: aquamarine;
+}
+
+
+form{
+    font-size: 40px;
+    background-color: lightseagreen;
+    padding: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: bisque;
+    font-size: 30px;
+    text-align: center;
+}
+td{
+    border: 2px solid black;
+}
+table .Titulo{
+    font-size: 45px;
+    color: darkmagenta;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

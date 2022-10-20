@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:ital,wght@1,400;1,700&display=swap');
+
+        body{
+            background-color: whitesmoke;
+        }
+        .encabezado{
+            background-color: rgb(35, 116, 89);
+            color: blue;
+            text-align: center;
+        }
+        footer{
+            background-color: rgba(46, 105, 105, 0.795);
+        }
+        article{
+            background-color: cornflowerblue;
+        }
+        h3, footer{
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            font-family: 'Anton', sans-serif;
+        }
+        div{
+            text-align: center;
+        }
+        a{
+            font-size: 25px;
+            font-family: 'Anton';
+        }

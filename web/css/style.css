@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:ital,wght@1,400;1,700&display=swap');
+
+body{
+    background-color: azure;
+}
+header{
+    background-color: burlywood;
+}
+main{
+    background-color: darkkhaki;
+}
+footer{
+    background-color: darksalmon;
+}
+article{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.gif{
+    width: 800px;
+    height: 500px;
+}

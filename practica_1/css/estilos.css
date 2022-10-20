@@ -1,0 +1,68 @@
+.logo{
+    width: auto;
+    height: 70px;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color:green
+
+}
+header nav{
+    text-align: right;
+    width: 100%;
+}
+header nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+header nav a:hover{
+    background-color: white;
+    color: black;
+}
+main{
+    display: flex;
+    padding: 10px;
+}
+.principal{
+    width: 70%;
+    text-align: justify;
+    padding: 10px;
+}
+.img1{
+    width: 100%;
+    height: auto;
+}
+.principal figcaption{
+    text-align: center;
+}
+.secundario{
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: darkred;
+    color: white;
+}
+.secundario article{
+    border: solid 5px white;
+}
+.secundario a{
+    text-decoration: none;
+    color: white;
+}
+.secundario a:hover{
+    background-color: white;
+    color: black;
+}
+.secundario article:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    padding: 20px;
+    background-color: lightgrey;
+    text-align: center;
+    height: 100px;
+}

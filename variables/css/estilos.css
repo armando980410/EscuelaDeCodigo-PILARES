@@ -1,0 +1,52 @@
+:root{
+    --primario: green;
+    --secundario: lightgreen;
+    --fuentePrimaria: 'Impact', sanserif;
+    --background: rgba(0 0 0 0.5);
+}
+
+/*box sizing tiene 2 propiedades, border-box y content-box, content ocupara todo lo que la caja le permita para el contenido y el border contempla el tamaño del margin y border*/
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: var(--background);
+}
+
+/*Pseudo clases css
+h1:hover{
+    color: var(--primario)
+}
+
+.red:focus{
+    background: yellow;
+    color: red;
+}
+.blue:focus{
+    background: yellow;
+    color: blue;
+}
+
+.button:active{
+    color: rgb(30, 255, 0);
+}
+a:active{
+    color: greenyellow;
+}
+*/
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    background: var(--secundario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}

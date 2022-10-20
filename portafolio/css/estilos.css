@@ -1,0 +1,147 @@
+:root{
+  --background: rgba(0, 0, 125, 0.8);
+  --backgroundOscuro: rgb(0, 0, 125);
+  --blanco:#fff;
+  --secundario: rgb(250, 200, 0);
+  --fuenteprincipal: Impact;
+  --fuentesecundaria: Arial;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background: var(--background);
+}
+
+header{
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+header nav{
+  background: var(--backgroundOscuro);
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+}
+header nav a{
+  color: var(--blanco);
+  padding: 10px;
+}
+
+footer p{
+  font-size: 1.8rem;
+  font-family:'Times New Roman', Times, serif;
+  color: var(--blanco);
+}
+
+a{
+  text-decoration: none;
+  font-family: var(--fuentesecundaria);
+}
+a:hover{
+  background: var(--secundario);
+}
+
+img{
+  width: 100%;
+}
+
+.contenedor{
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+h1, h2, h3{
+  text-align: center;
+  color: var(--secundario);
+  font-family: var(--fuenteprincipal);
+}
+
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 3.2rem;
+}
+h3{
+  font-size: 2.4rem;
+}
+
+.footer{
+  background: var(--backgroundOscuro);
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+.footer_texto{
+  font-family: var(--fuenteprincipal);
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.proyecto{
+  width: 100%;
+  background: var(--backgroundOscuro);
+  padding: 1rem;
+}
+.p-nombre{
+  font-size: 3rem;
+}
+.info p{
+  font-family: var(--fuentesecundaria);
+  margin: 1rem 0;
+  text-align: center;
+  line-height: 1.2;
+}
+.info a{
+  font-size: 1.8rem;
+  color: var(--blanco);
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+}
+
+img{
+  width: 354px;
+  height: 341px;
+}
+
+@media(max-width: 768px){
+  .grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media(max-width: 420px){
+  .grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+/*Nosotros estilos*/
+
+/*
+.nosotros_contenido p{
+  font-family: var(--fuentesecundaria);
+}
+*/
+
+@media (min-width:768px){
+  .nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+  .nosotros_imagen{
+    grid-column: 2/3;
+  }
+}
+
